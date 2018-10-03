@@ -140,7 +140,7 @@
 		<state id="Log2">
 			<onentry>
 				<log expr="_sessionid + ': Inside Log Block: Log2'" />
-				<log expr="'These are new logging details.'" level="2" />
+				<log expr="'These are details.'" level="2" />
 				<send event="'Log2.script.done'"/>
 			</onentry>
 			<transition event="Log2.script.done" target="$$_MY_PREFIX_$$.Exit1">
