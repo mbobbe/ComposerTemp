@@ -48,13 +48,9 @@
     <blocks xmi:type="ird:LogBlock" xmi:id="_7l3bkMc2EeiKFvgPKBkFPg" name="Log1" category="Log">
       <loggingDetails>'This is a log.'</loggingDetails>
     </blocks>
-    <blocks xmi:type="ird:LogBlock" xmi:id="_G4Uw0MdDEei5h4hWvKHN6g" name="Log2" category="Log" label="">
-      <loggingDetails>'These are details.'</loggingDetails>
-    </blocks>
     <links xmi:type="ird:WorkflowOutputLink" xmi:id="_CNKxoMc1EeiVa95VObaGnQ" fromBlock="_6e2LkNz6EeKyG9aF7VXEXg" toBlock="_Br9iAMc1EeiVa95VObaGnQ"/>
     <links xmi:type="ird:WorkflowOutputLink" xmi:id="_8MIxYMc2EeiKFvgPKBkFPg" fromBlock="_Br9iAMc1EeiVa95VObaGnQ" toBlock="_7l3bkMc2EeiKFvgPKBkFPg"/>
-    <links xmi:type="ird:WorkflowOutputLink" xmi:id="_Hgj1gMdDEei5h4hWvKHN6g" fromBlock="_7l3bkMc2EeiKFvgPKBkFPg" toBlock="_G4Uw0MdDEei5h4hWvKHN6g"/>
-    <links xmi:type="ird:WorkflowOutputLink" xmi:id="_HqGzEMdDEei5h4hWvKHN6g" fromBlock="_G4Uw0MdDEei5h4hWvKHN6g" toBlock="_6niNgNz6EeKyG9aF7VXEXg"/>
+    <links xmi:type="ird:WorkflowOutputLink" xmi:id="_xXXe4MdEEeiunczmMY_M8A" fromBlock="_7l3bkMc2EeiKFvgPKBkFPg" toBlock="_6niNgNz6EeKyG9aF7VXEXg"/>
     <namespaces xmi:type="datatypes:Property" xmi:id="_5WEloNz6EeKyG9aF7VXEXg" name="ws" value="http://www.genesyslab.com/modules/ws"/>
     <namespaces xmi:type="datatypes:Property" xmi:id="_5WElodz6EeKyG9aF7VXEXg" name="queue" value="http://www.genesyslab.com/modules/queue"/>
     <namespaces xmi:type="datatypes:Property" xmi:id="_5WElotz6EeKyG9aF7VXEXg" name="dialog" value="http://www.genesyslab.com/modules/dialog"/>
@@ -83,11 +79,6 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_7l5Qwcc2EeiKFvgPKBkFPg" type="4080"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7l4pscc2EeiKFvgPKBkFPg" x="400" y="450"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_G4UJwMdDEei5h4hWvKHN6g" type="1041" element="_G4Uw0MdDEei5h4hWvKHN6g" fontName="Segoe UI">
-      <children xmi:type="notation:DecorationNode" xmi:id="_G4UJwcdDEei5h4hWvKHN6g" type="4079"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_G4UJwsdDEei5h4hWvKHN6g" type="4080"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4UJw8dDEei5h4hWvKHN6g" x="400" y="550"/>
-    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_33D0EooaEeG_nt9_QYQUcg"/>
     <edges xmi:type="notation:Connector" xmi:id="_CNL_wMc1EeiVa95VObaGnQ" type="3001" element="_CNKxoMc1EeiVa95VObaGnQ" source="_6fiIENz6EeKyG9aF7VXEXg" target="_Br_XMMc1EeiVa95VObaGnQ" roundedBendpointsRadius="10" routing="Rectilinear" closestDistance="true" lineColor="16711680">
       <children xmi:type="notation:DecorationNode" xmi:id="_CNMm0Mc1EeiVa95VObaGnQ" type="5001">
@@ -105,21 +96,14 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8MJYcsc2EeiKFvgPKBkFPg" points="[8, 0, 8, -150]$[8, 125, 8, -25]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8MMbwMc2EeiKFvgPKBkFPg" id="(0.5,1.0)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_HglqsMdDEei5h4hWvKHN6g" type="3001" element="_Hgj1gMdDEei5h4hWvKHN6g" source="_7l4psMc2EeiKFvgPKBkFPg" target="_G4UJwMdDEei5h4hWvKHN6g" roundedBendpointsRadius="10" routing="Rectilinear" closestDistance="true" lineColor="16711680">
-      <children xmi:type="notation:DecorationNode" xmi:id="_HgmRwMdDEei5h4hWvKHN6g" type="5001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_HgmRwcdDEei5h4hWvKHN6g" x="5" y="5"/>
+    <edges xmi:type="notation:Connector" xmi:id="_xXZ7IMdEEeiunczmMY_M8A" type="3001" element="_xXXe4MdEEeiunczmMY_M8A" source="_7l4psMc2EeiKFvgPKBkFPg" target="_6nkCsNz6EeKyG9aF7VXEXg" roundedBendpointsRadius="10" routing="Rectilinear" closestDistance="true" lineColor="16711680">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xXaiMMdEEeiunczmMY_M8A" type="5001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xXaiMcdEEeiunczmMY_M8A" x="5" y="5"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_HglqscdDEei5h4hWvKHN6g" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HglqssdDEei5h4hWvKHN6g" points="[1, 0, 7, -75]$[49, 75, 55, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HgoG8MdDEei5h4hWvKHN6g" id="(0.5545454545454546,1.0)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_HqHaIMdDEei5h4hWvKHN6g" type="3001" element="_HqGzEMdDEei5h4hWvKHN6g" source="_G4UJwMdDEei5h4hWvKHN6g" target="_6nkCsNz6EeKyG9aF7VXEXg" roundedBendpointsRadius="10" routing="Rectilinear" closestDistance="true" lineColor="16711680">
-      <children xmi:type="notation:DecorationNode" xmi:id="_HqHaI8dDEei5h4hWvKHN6g" type="5001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_HqHaJMdDEei5h4hWvKHN6g" x="5" y="5"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_HqHaIcdDEei5h4hWvKHN6g" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HqHaIsdDEei5h4hWvKHN6g" points="[1, 0, 4, -175]$[1, 150, 4, -25]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HqJPUMdDEei5h4hWvKHN6g" id="(0.5272727272727272,1.0)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xXZ7IcdEEeiunczmMY_M8A" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xXZ7IsdEEeiunczmMY_M8A" points="[3, 0, 0, -250]$[3, 250, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xXeMkMdEEeiunczmMY_M8A" id="(0.4818181818181818,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xXeMkcdEEeiunczmMY_M8A" id="(0.509090909090909,0.0)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
