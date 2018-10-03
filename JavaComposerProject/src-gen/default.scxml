@@ -45,7 +45,6 @@
 				var App_Exit1 = new Object();
 				var App_Assign1 = new Object();
 				var App_Log1 = new Object();
-				var App_Log2 = new Object();
 			</script>
 		</onentry>
 		
@@ -131,20 +130,8 @@
 				<log expr="'This is a log.'" level="2" />
 				<send event="'Log1.script.done'"/>
 			</onentry>
-			<transition event="Log1.script.done" target="$$_MY_PREFIX_$$.Log2">
+			<transition event="Log1.script.done" target="$$_MY_PREFIX_$$.Exit1">
 				<script>storeEvent("Log1", _event);</script>
-			</transition>
-		</state>
-
-		<!-- This is the Log2 State -->
-		<state id="Log2">
-			<onentry>
-				<log expr="_sessionid + ': Inside Log Block: Log2'" />
-				<log expr="'These are details.'" level="2" />
-				<send event="'Log2.script.done'"/>
-			</onentry>
-			<transition event="Log2.script.done" target="$$_MY_PREFIX_$$.Exit1">
-				<script>storeEvent("Log2", _event);</script>
 			</transition>
 		</state>
 	</state>
