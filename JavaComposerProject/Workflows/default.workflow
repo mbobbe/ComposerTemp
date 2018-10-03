@@ -49,7 +49,7 @@
       <loggingDetails>'This is a log.'</loggingDetails>
     </blocks>
     <blocks xmi:type="ird:LogBlock" xmi:id="_G4Uw0MdDEei5h4hWvKHN6g" name="Log2" category="Log" label="">
-      <loggingDetails>'These are the logging details.'</loggingDetails>
+      <loggingDetails>'These are new logging details.'</loggingDetails>
     </blocks>
     <links xmi:type="ird:WorkflowOutputLink" xmi:id="_CNKxoMc1EeiVa95VObaGnQ" fromBlock="_6e2LkNz6EeKyG9aF7VXEXg" toBlock="_Br9iAMc1EeiVa95VObaGnQ"/>
     <links xmi:type="ird:WorkflowOutputLink" xmi:id="_8MIxYMc2EeiKFvgPKBkFPg" fromBlock="_Br9iAMc1EeiVa95VObaGnQ" toBlock="_7l3bkMc2EeiKFvgPKBkFPg"/>
