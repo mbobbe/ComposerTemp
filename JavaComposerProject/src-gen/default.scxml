@@ -44,6 +44,7 @@
 				var testvar = undefined;
 				var App_Exit1 = new Object();
 				var App_Assign1 = new Object();
+				var App_Log1 = new Object();
 			</script>
 		</onentry>
 		
@@ -117,8 +118,20 @@
 				</script>
 				<send event="'Assign1.script.done'"/>
 			</onentry>
-			<transition event="Assign1.script.done" target="$$_MY_PREFIX_$$.Exit1">
+			<transition event="Assign1.script.done" target="$$_MY_PREFIX_$$.Log1">
 				<script>storeEvent("Assign1", _event);</script>
+			</transition>
+		</state>
+
+		<!-- This is the Log1 State -->
+		<state id="Log1">
+			<onentry>
+				<log expr="_sessionid + ': Inside Log Block: Log1'" />
+				<log expr="'This is a log.'" level="2" />
+				<send event="'Log1.script.done'"/>
+			</onentry>
+			<transition event="Log1.script.done" target="$$_MY_PREFIX_$$.Exit1">
+				<script>storeEvent("Log1", _event);</script>
 			</transition>
 		</state>
 	</state>
